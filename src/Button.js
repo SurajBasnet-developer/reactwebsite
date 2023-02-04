@@ -4,7 +4,7 @@ const Button = ({ name, link }) => {
     <>
       <a href={link} target="_blank">
         {" "}
-        <button>{name}</button>
+        <button className="button">{name}</button>
       </a>
     </>
   );
